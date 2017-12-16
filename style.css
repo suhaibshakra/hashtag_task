@@ -1,0 +1,168 @@
+
+body{
+  font-size: small;
+  font-stretch: ultra-condensed;
+}
+@media only screen and (max-width: 350px){
+  .Content {
+      width: 50% !important;
+  }
+}
+@media only screen and (max-width: 400px) and (min-width: 350px){
+  .Content {
+      width: 45% !important;
+  }
+  .odd {
+	margin-left: 0% !important;
+}
+.button {
+	width: 22%  !important;
+	margin-right: 43%  !important;
+	margin-left: 36%  !important;
+	margin-top: -8%  !important;
+}
+}
+@media only screen and (max-width: 800px)  and (min-width: 400px) {
+  .Content {
+      width: 40% !important;
+  }
+  .odd {
+	margin-left: 1% !important;
+}
+.button {
+
+	width: 24% !important;
+	margin-right: 43% !important;
+	margin-left: 35% !important;
+	margin-top: -8% !important;
+}
+}
+@media screen and (max-width: 1200px) and (min-width: 800px) {
+  .Content {
+      width: 17% !important;
+  }
+  .odd {
+	margin-left: -1% !important;
+}
+.posts .myDiv {
+	margin-left: 50% !important;
+}
+.button {
+	margin-left: 45%  !important;
+
+}
+}
+.Content {
+    width: 12%;
+    margin: 0 auto;
+}
+
+.myDiv {
+    -ms-transform: rotate(-50deg); /* IE 9 */
+    -webkit-transform: rotate(-50deg); /* Safari */
+    transform: rotate(-50deg); /* Standard syntax */
+    width: 50px;
+    height: 50px;
+    background-color: #24e4fbb3;
+    border: 1px solid black;
+    margin: 10px;
+    float:left;
+    margin-bottom: 0px;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+input[type="submit"] {
+    float: right;
+}
+input[type="text"]{
+    width: 40%;
+}
+.hashtags{
+  margin-top: 25%;
+}
+.even {
+	margin-left: -27%;
+	width: 152%;
+}
+
+  @-webkit-keyframes fadeIn {
+     0% {opacity: 0;}
+     100% {opacity: 1;}
+  }
+
+  @keyframes fadeIn {
+     0% {opacity: 0;}
+     100% {opacity: 1;}
+  }
+
+  .fadeIn {
+     -webkit-animation-name: fadeIn;
+     animation-name: fadeIn;
+  }
+  .posts {
+
+  	width: 100%;
+  }
+.vertical-text {
+	transform: rotate(50deg);
+	left: 25px;
+	top: 0;
+}
+.even .myDiv {
+	margin-top: 0px;
+    margin-left: 14px;
+}
+.odd {
+	margin-left: 2%;
+}
+.odd .myDiv {
+	margin-top: -7px;
+    margin-bottom: 4px;
+}
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 14px;
+  padding: 10px;
+  width: 15%;
+  transition: all 0.5s;
+  cursor: pointer;
+    margin-right: 43%;
+margin-left: 42%;
+    margin-top: -15%;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00ab';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+#error {
+	color: red;
+}
